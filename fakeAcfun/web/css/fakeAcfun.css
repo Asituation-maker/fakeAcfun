@@ -1,0 +1,83 @@
+ul,li{
+   display:inline-block;
+}
+a {
+   display: inline-block;
+   height: 35px;
+}
+img {
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: cover;
+}
+
+.mouseIn,a:hover {
+   color: red;
+   text-decoration: none;
+}
+.text {
+   color: #4e555b;
+   font-family: AcFun Symbol,Helvetica Neue,Helvetica,Arial,pingfang SC,Microsoft Yahei,STHeiti,sans-serif;
+}
+.text02 {
+   color: white;
+   font-family: AcFun Symbol,Helvetica Neue,Helvetica,Arial,pingfang SC,Microsoft Yahei,STHeiti,sans-serif;
+}
+.text03 {
+   color: #999;
+   font-family: AcFun Symbol,Helvetica Neue,Helvetica,Arial,pingfang SC,Microsoft Yahei,STHeiti,sans-serif;
+}
+.text04 {
+   color: #333;
+   font-family: AcFun Symbol,Helvetica Neue,Helvetica,Arial,pingfang SC,Microsoft Yahei,STHeiti,sans-serif;
+}
+.head {
+   display: inline-block;
+   display: flex;
+   position: fixed;
+   height: 46px;
+   left: 0;
+   right: 0;
+   margin: auto;
+   background-color: white;
+}
+.head-other {
+   position: relative;
+   height: 46px;
+   display: inline-block;
+   vertical-align: top;
+}
+.logo {
+   display: inline-block;
+   width: 92px;
+   height: 46px;
+}
+.myNav {
+   padding-left: 28px;
+   font-size: 14px;
+}
+.myVideo {
+   border-radius: 3px;
+}
+#head_content {
+    width: 1163px;
+
+ }
+#acLogo {
+   margin-right: 12px;
+   background: url(../../img/acfun_logo.png) no-repeat center 7px;
+}
+#acStore {
+   position: relative;
+   display: inline-block;
+   top: 10px;
+}
+#search-box {
+   top: 7px;
+   margin: auto;
+   width: 362px;
+}
+#head-other {
+   display: inline-block;
+   margin: 7px;
+}
